@@ -9,8 +9,8 @@
 name: Build OpenWrt
 
 on:
-  repository_dispatch:
-    types: helloworld
+#  repository_dispatch:
+#    types: helloworld
   release:
     types: published
   push:
